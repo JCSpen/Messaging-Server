@@ -1,0 +1,143 @@
+
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User01","where":"Default","_class":"Message","body":" Has Connected","when":1}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User02","where":"Default","_class":"Message","body":" Has Connected","when":1}
+
+{"_class":"ErrorResponse","error":"Channel does not exist: "}{"_class":"OpenRequest","Identity":"User02"}
+{"_class":"GetRequest","Identity":"SERVER"}
+
+{"_class":"SuccessResponse"}
+{"_class":"SuccessResponse"}{"Channel":"general","_class":"SubscribeRequest","Identity":"User01"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"User01"}
+{"_class":"log","message":"User01 Get Request"}
+
+{"_class":"SuccessResponse"}
+{"_class":"ErrorResponse","error":"Unrecognised command"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"log","message":"User01 Changed Name To: \/name NewGuy01"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"NewGuy01"}
+
+{"_class":"ErrorResponse","error":"No messages found with: newguy01"}{"_class":"GetRequest","Identity":"NewGuy01"}
+
+{"_class":"SuccessResponse"}{"_class":"log","message":"NewGuy01 Disconnected"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"NewGuy01","where":"general","_class":"Message","body":" has left the server","when":8}
+{"_class":"log","message":"User02 Disconnected"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User02","where":"general","_class":"Message","body":" has left the server","when":8}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User1","where":"Default","_class":"Message","body":" Has Connected","when":8}
+{"Channel":"general","_class":"SubscribeRequest","Identity":"User1"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+
+{"_class":"SuccessResponse"}{"_class":"OpenRequest","Identity":"User1"}
+{"_class":"GetRequest","Identity":"SERVER"}
+
+{"_class":"SuccessResponse"}
+{"_class":"SuccessResponse"}{"Channel":"main","_class":"UnsubscribeRequest","Identity":"User1"}
+
+{"_class":"SuccessResponse"}
+{"_class":"ErrorResponse","error":"You have not selected a channel to publish in"}
+{"_class":"SuccessResponse"}{"Channel":"main","_class":"SubscribeRequest","Identity":"User1"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User2","where":"Default","_class":"Message","body":" Has Connected","when":9}
+{"Channel":"main","_class":"SubscribeRequest","Identity":"User2"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User3","where":"Default","_class":"Message","body":" Has Connected","when":11}
+{"Channel":"general","_class":"SubscribeRequest","Identity":"User3"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"User4","where":"Default","_class":"Message","body":" Has Connected","when":13}
+{"Channel":"main","_class":"SubscribeRequest","Identity":"User4"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"User1"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"User1"}
+{"_class":"log","message":"User1 Get Request"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"log","message":"User1 Changed Name To: \/name ThisGuy1"}
+
+{"_class":"SuccessResponse"}{"_class":"log","message":"ThisGuy1 Disconnected"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"ThisGuy1","where":"general","_class":"Message","body":" has left the server","when":15}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"NewUser","where":"Default","_class":"Message","body":" Has Connected","when":15}
+{"Channel":"main","_class":"SubscribeRequest","Identity":"NewUser"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"Channel":"general","_class":"SubscribeRequest","Identity":"NewUser"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"NewUser"}
+{"_class":"log","message":"NewUser Get Request"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+
+{"_class":"ErrorResponse","error":"Unrecognised command"}
+{"_class":"ErrorResponse","error":"Unrecognised command"}
+{"_class":"ErrorResponse","error":"Unrecognised command"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"Jeff","where":"Default","_class":"Message","body":" Has Connected","when":17}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"CmdLineUser","where":"Default","_class":"Message","body":" Has Connected","when":17}
+{"_class":"GetRequest","Identity":"CmdLineUser"}
+
+{"_class":"ErrorResponse","error":"No messages found with: new"}{"_class":"GetRequest","Identity":"CmdLineUser"}
+{"_class":"log","message":"CmdLineUser Get Request"}
+
+{"_class":"SuccessResponse"}{"Channel":"main","_class":"SubscribeRequest","Identity":"CmdLineUser"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"CmdLineUser"}
+{"_class":"log","message":"CmdLineUser Get Request"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"AnotherCmdLineUser","where":"Default","_class":"Message","body":" Has Connected","when":17}
+{"Channel":"main","_class":"SubscribeRequest","Identity":"AnotherCmdLineUser"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"log","message":"CmdLineUser Disconnected"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"CmdLineUser","where":"main","_class":"Message","body":" has left the server","when":19}
+{"_class":"log","message":"AnotherCmdLineUser Disconnected"}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"AnotherCmdLineUser","where":"main","_class":"Message","body":" has left the server","when":19}
+{"_class":"GetRequest","Identity":"SERVER"}
+{"from":"Newuser","where":"Default","_class":"Message","body":" Has Connected","when":19}
+{"Channel":"main","_class":"SubscribeRequest","Identity":"Newuser"}
+
+{"_class":"SuccessResponse"}{"_class":"GetRequest","Identity":"SERVER"}
+{"_class":"GetRequest","Identity":"Newuser"}
+{"_class":"log","message":"Newuser Get Request"}
+
+{"_class":"SuccessResponse"}
