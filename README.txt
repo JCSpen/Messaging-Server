@@ -1,4 +1,4 @@
-This zip file contains all the files relevant to this project.
+This readme file previews the system.
 
 Persistence and chat searching extensions have been implemented.
 Persistence:
@@ -15,7 +15,7 @@ Chat Searching:
 - If not, an error message is displayed accordingly.
 
 
-There are three other txt files in the zip, these consist of:
+There are three other txt files in the repository, these consist of:
 - MessageLogs (This txt file stores all messages as a JSON Object)
 - ServerBackup (When a protocol is used, it is immediately backed up into this file, this allows the sever to recover when killed)
 - Channels (Channel names are stored in this file so that they can be used again).
